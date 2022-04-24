@@ -1,0 +1,40 @@
+table, th, td {
+    border: 2px solid red;
+    border-collapse: collapse;
+    width: 75%;
+    height: 128px;
+    text-align: center;
+    vertical-align: right;
+    padding: 30px;
+}
+
+input[type=text]{
+    border: 4px dotted green;
+    border-radius: 8px;
+    background-color: chocolate;
+    color: azure;
+    transition: width 0.5s ease-in-out;
+} 
+
+input[type=text]:focus{
+    width: 200%;
+    background-color: gold;
+    border: 6px dotted blue;
+}
+
+h1, h2 {
+    padding: 10px;
+    border: 1px solid indigo;
+    text-align: right;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    margin-left: 48px;
+    margin-right: 24px; 
+}
+
+button{
+    text-decoration: dashed;
+    cursor: pointer;
+    width: 100%;
+    color: brown;
+}
